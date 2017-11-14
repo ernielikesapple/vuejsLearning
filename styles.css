@@ -1,0 +1,28 @@
+#thisIsAID {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#thisIsAID h1 {
+  font-size: 8vw;
+  color: royalblue;
+}
+
+#thisIsAID h2 {
+  font-size: 5vw;
+  color: burlywood;
+}
+
+#thisIsAID p {
+  font-size: 16px;
+  color: greenyellow;
+}
+
+.aDivClassInStyleCSSFile {
+    position: relative;
+    top: 10px;
+    display: block;
+    which means the 
+    color: forestgreen;
+}

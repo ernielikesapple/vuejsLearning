@@ -1,15 +1,58 @@
+<style>
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>VueJS Tutorial</title>
+    <!-- the line of code below indicate where the css file is located for this webPage -->
     <link href="styles.css" rel="stylesheet" />
     <script src="https://unpkg.com/vue"></script>
+
+    <style>
+        #embededSheetsExample {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 10px;
+            color: rebeccapurple;
+        }
+        .divClassInsideEmbededSheetsExample {
+            font-family:'Times New Roman', Times, serif;
+            font-size: 20px;
+            color: khaki;
+
+        }
+    </style>
 </head>
+
 <body>
     <script src="app.js">aa</script>
-    <div>aaaa</div>
+    <div id="thisIsAID">
+        <h1>My first CSS learning file</h1>
+        <h2>how exciting</h2>
+        <p>though this is just a start point of my whole new project which is going to include a swift backend, Artificial intelligence
+            inside, and an iOS AR app
+        </p>
+        <div id="inlineCSSstyleExample" style="position: relative; top: 100; left: 100; width: 100%">inline css example</div>
+        <div id="embededSheetsExample">embededSheetsExample
+            <div class="divClassInsideEmbededSheetsExample">
+                    div Class Inside Embeded Sheets Example
+            </div>
+        </div>
+    </div>
+
+    <div class="aDivClassInStyleCSSFile">
+        ...111.
+    </div>
+    <div class="aDivClassInStyleCSSFile">
+            ...222.
+        </div>
+        <div class="aDivClassInStyleCSSFile">
+                ...333.
+            </div>
 </body>
+
 </html>
