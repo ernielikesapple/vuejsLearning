@@ -8,7 +8,28 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="paragraphStyle">this is a div which is using external css</div>
+
+
+    <div class="paragraphStyle">this is a div which
+        <div> iniside a div, css selector descendant
+             <span>span <p>p tag <p>child of the p the tag</p> </p> tag</span>
+             <div>a div after the span</div> 
+        is using external css
+        </div>
+        <div id="anDivWithTheID">
+            <h1>this is a h1 tag</h1>
+            <p> a p tag inside a h1 tag which is using the adjacent selector</p>
+        </div>
+    </div>
     <p class="paragraphStyle">this is a paragraph which is using external css</p>
+    <p class="paragraphStyle">this is an another paragraph </p>
+    <p>this is the third paragraph </p>
+
+
+    <div class="aDivWithaTag paragraphStyle"> a div with a tag inside and this a tag's css is controlled by an attribute selector, and this div has two classes associated with it.
+
+    <a href="http://www.google.com" title="Search">click me you will know everything</a>
+    <a href="http://www.baidu.com" title="Search1">click me you will know a little thing</a>
+    </div>
 </body>
 </html>
